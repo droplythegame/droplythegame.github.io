@@ -5,6 +5,13 @@ html,body{
     font-family: var(--main-type);
 }
 
+.alert{
+    width:100vw;
+    height:100vh;
+    background:rgba(0, 0, 0, 0.5);
+    position:fixed;
+}
+
 .landing-container{
     width:90%;
     max-width: 700px;
