@@ -109,6 +109,8 @@ a{
     background-size:contain, cover;
     box-sizing: border-box;
     overflow:hidden;
+
+    
 }
 
 .landing-logo{
@@ -122,26 +124,31 @@ a{
 
 .landing-center{
     margin:0 auto;
-    text-align: center;
-    padding:25vh 0;
+    text-align: left;
+    padding:10vh 0 25vh 0;
     width:70%;
+    max-width:900px;
 }
 
 .landing-center h1{
     margin:0;
     color:#fff;
     line-height: .9em;
-    font-size: 3.1rem;
+    font-size: 4rem;
+    font-weight: 900;
+    max-width:600px;
 }
 
 .landing-center p{
-    color:var(--clr-primary-light);
-    font-weight: 200;
+    /* color:var(--clr-primary-light); */
+    color:#fff;
+    font-weight: 400;
+    font-size:16px;
 }
 
 .landing-cta{
     width:100%;
-    text-align: center;
+    text-align: left;
     margin:0 0 20px 0;
 }
 
@@ -151,6 +158,16 @@ a{
     background:var(--clr-primary-light);
     padding:10px 20px;
     border-radius: 50px;
+    font-size:12px;
+}
+
+.button-landing-cta{
+    font-size:14px;
+}
+
+.button-tell-me-more{
+    background:#fff !important;
+    color:var(--clr-primary-light) !important;
 }
 
 button:hover{
@@ -394,18 +411,53 @@ button:hover{
     color:#000 !important;
 }
 
-
 .footer{
     width:100%;
-    background:var(--clr-primary-light);
-    color:#fff;
+    border-top:1px solid #ececec;
+}
+
+.footer-content{
+    width:90%;
+    /* background:var(--clr-primary-light); */
+    background:#fff;
+    color:#000;
     padding:20px 0;
-    text-align:center;
+    text-align:left;
+    margin:20px auto;
+    max-width:1000px;
+    display:flex;
+    flex-wrap: nowrap;
+}
+
+.footer-content-text{
+    flex-grow: 1;
+}
+
+.social-media-title{
+    font-weight:200;
+    margin:0 0 15px 0;
+    font-size:14px;
+}
+
+.social-media-title a{
+    text-decoration: underline;
+    color:inherit;
+    font-weight:500;
+}
+
+.social-media{
+    display:flex;
+    flex-wrap: nowrap;
+}
+
+.social-media a{
+    color:#000;
+    text-decoration: none;
 }
 
 .footer .social-media i{
-    margin:0 5px;
-    font-size:24px;
+    margin:0 20px;
+    font-size:20px;
 }
 
 
