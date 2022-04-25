@@ -23,5 +23,10 @@ export const list = [
         id:"DP1630608804476192400552PDMZ",
         items:["CHAXL", "CHBLAZE", "CH02"],
         extracoins:["ULTBBD", "GIVEAWAY01"]
+    },
+    {
+        id:"DP1630417413027143321552AIYO",
+        items:[],
+        extracoins:["GIVEAWAY01"]
     }
 ]
