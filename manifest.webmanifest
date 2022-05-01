@@ -1,0 +1,16 @@
+{
+  "short_name": "Droply",
+  "name": "Droply",
+  "description": "Welcome to Droply's Universe.",
+  "icons": [
+    {
+      "src": "images/icon.png",
+      "type": "image/png",
+      "sizes": "192x192"
+    }
+  ],
+  "start_url": "/",
+  "background_color": "#FFFFFF",
+  "theme_color": "#FFFFFF",
+  "display": "standalone"
+}
