@@ -375,11 +375,21 @@
 
 
 
-    <script>
-        if ('serviceWorker' in navigator) { navigator.serviceWorker.register('/service-worker.js') }
-    </script>
+
     <script src="https://code.jquery.com/jquery-3.6.0.js" integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk=" crossorigin="anonymous"></script>
     <script type="module" src="/js/logic.js"></script>
+    
+    <script>
+         if ('serviceWorker' in navigator) {
+            console.log("Will the service worker register?");
+            navigator.serviceWorker.register('service-worker.js')
+              .then(function(reg){
+                console.log("Yes, it did.");
+             }).catch(function(err) {
+                console.log("No it didn't. This happened:", err)
+            });
+         }
+    </script>
 
 </body>
 </html>
